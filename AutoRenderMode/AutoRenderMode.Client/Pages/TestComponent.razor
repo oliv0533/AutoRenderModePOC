@@ -1,0 +1,47 @@
+﻿@page "/testcomponent"
+@using AutoRenderMode.Client.Data
+@using AutoRenderMode.Client.Models
+@rendermode InteractiveAuto
+
+<PageTitle>TestData</PageTitle>
+
+<h1>Test data</h1>
+
+@if (TestDataList == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var testData in TestDataList)
+            {
+                <tr>
+                    <td>@testData.Name</td>
+                    <td>@testData.Description</td>
+                    <td>@testData.Type</td>
+                    <td>@testData.Value</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<TestModel>? TestDataList { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        await Task.Delay(500);
+        TestDataList = TestDataProvider.GetTestData();
+    }
+}

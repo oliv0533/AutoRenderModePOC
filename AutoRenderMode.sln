@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoRenderMode", "AutoRenderMode\AutoRenderMode\AutoRenderMode.csproj", "{B8B30FE4-5CF2-4EF5-B685-DEF7F4E8AA86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoRenderMode.Client", "AutoRenderMode\AutoRenderMode.Client\AutoRenderMode.Client.csproj", "{FDC6B953-CBC0-4EB2-88C0-C3DA450087FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8B30FE4-5CF2-4EF5-B685-DEF7F4E8AA86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8B30FE4-5CF2-4EF5-B685-DEF7F4E8AA86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8B30FE4-5CF2-4EF5-B685-DEF7F4E8AA86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8B30FE4-5CF2-4EF5-B685-DEF7F4E8AA86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDC6B953-CBC0-4EB2-88C0-C3DA450087FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDC6B953-CBC0-4EB2-88C0-C3DA450087FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDC6B953-CBC0-4EB2-88C0-C3DA450087FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDC6B953-CBC0-4EB2-88C0-C3DA450087FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F761AAE0-36B4-4D83-95F1-7E25F700C549}
+	EndGlobalSection
+EndGlobal
